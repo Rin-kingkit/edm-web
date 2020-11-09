@@ -1,0 +1,110 @@
+  
+  body {
+    width: 100%;
+    height: 100%;
+  }
+.container{
+    width:clamp(100px,100%,700px);
+    background-color: rgb(255, 225, 0);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 100%;
+}
+h1{
+    width: 100%;
+    
+}
+h1 a{
+    width: 90%;
+    display: block;
+    margin-left: 5%;
+}
+h1 a img{
+    width: 100%;
+}
+  
+  .subject {
+    text-align: center;
+  }
+  .subject a {
+    display: block;
+    text-decoration: none;
+  }
+  .subject a img {
+    width: 100%;
+  }
+  .subject a h2 {
+    color: #000;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .link{
+      width: 100%;
+      text-align: center;
+  }
+  .link img {
+    display: inline-block;
+    width: 300px;
+}
+.link > div {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    height: 90%;
+    width: 300px;
+    margin-bottom: 9%;
+    margin-top: 4%;
+ }
+ .link > div > h3 {
+    margin-top: 0%;
+    vertical-align: middle;
+}
+.link > div > p {
+   
+ }
+ .link > div > div {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #000;
+    height: 45px;
+    border-radius: 6px;
+}
+.link > div > div > a {
+    display: block;
+    line-height: 48px;
+    color: #fff;
+    text-decoration: none;
+}
+.info {
+    width: 90%;
+    margin-left: 5%;
+}
+.info > div > div {
+    width: 150px;
+    background-color: #000;
+    height: 35px;
+    margin-right: 5%;
+    display: inline-block;
+    border-radius: 10px;
+}
+.info > div > div > a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    line-height: 37px;
+    text-align: center;
+}
+
+.call {
+    background-color: rgb(189, 61, 22);
+    color: #fff;
+    height: 70px;
+    margin-top: 60px;
+}
+.call > p {
+    height: 100%;
+    text-align: center;
+    line-height: 70px;
+}
+
