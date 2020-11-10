@@ -83,12 +83,17 @@ h3 {
   margin-top: 16px;
   }
 
-  ul {
+ul {
     margin-top: 16px;
+    list-style-type: none;
 }
 li {
   line-height: 35px;
   }
+  li > span {
+  color: #FFDC18;
+   margin-right: 15px;
+}
 
 .btn-red {
   background-color: #E20D0D;
@@ -144,11 +149,14 @@ margin-top: 25px;
 .signup-block > div {
   height: 33.6px;
 width: 144.4px;
-line-height: 33.6px;
+line-height: 35.6px;
 border-radius: 4.8px;
   margin: auto;
   background-color: #000;
   margin-top: 25px;
+  }
+.signup-block > div >a{
+    font-size: 16px;
   }
 
 .second {
@@ -176,7 +184,7 @@ border-radius: 4.8px;
   height: 42px;
   margin: auto;
   background-color: #000;
-  line-height: 42px;
+  line-height: 44px;
   border-radius: 5px;
   margin-top: 32px;
 }
@@ -210,12 +218,15 @@ border-radius: 4.8px;
     opacity: 0.5;
     margin-top: 30px;
 }
-.icon>img{
+.icon>a{
   width: 29px;
     vertical-align: middle;
 display: inline-block;
 margin: auto 15px;
 }
+.icon > a > img {
+  width: 100%;
+  }
 .fb {
   transform: scale(1.4);
   }
