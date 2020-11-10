@@ -57,7 +57,7 @@ margin-left: 20%;
   width: 90%;
   margin-left: 5%;
   border-radius: 15px;
-  margin-top: 40px;
+  margin-top: 20px;
   }
 .teacher{
   margin-top: 0px;
@@ -72,7 +72,9 @@ margin-left: 20%;
 h3 {
   font-size: 26px;
   }
-
+.teacher .info{
+  color: #000;
+}
 .info{
   color:#414141;
 }
@@ -90,6 +92,7 @@ ul {
 }
 li {
   line-height: 35px;
+  font-size: 18px;
   }
   li > span {
   color: #FFDC18;
@@ -116,7 +119,7 @@ li {
 h2 {
       text-align: center;
       font-size: 28px;
-      margin: 50px auto;
+      margin: 60px auto 0 auto;
   }
 .first {
    text-align: center;
@@ -142,8 +145,8 @@ margin-top: 25px;
 .signup-block {
       display: inline-block;
       width: 215px;
-    height: 140px;
-    margin-top: 33px;
+    height: 130px;
+    margin-top: 20px;
   }
 .signup {
   /* border-right: 1px solid #000; */
@@ -155,7 +158,7 @@ line-height: 33.6px;
 border-radius: 4.8px;
   margin: auto;
   background-color: #000;
-  margin-top: 25px;
+  margin-top: 20px;
   }
 .signup-block > div >a{
     font-size: 16px;
@@ -189,6 +192,7 @@ border-radius: 4.8px;
   line-height: 42px;
   border-radius: 5px;
   margin-top: 32px;
+  font-size: 16px;
 }
 
 
@@ -226,9 +230,9 @@ border-radius: 4.8px;
 display: inline-block;
 margin: auto 15px;
 }
-.icon > a > img {
-  width: 100%;
+.home,.fb,.shop {
+  width: 77%;
   }
 .fb {
-  transform: scale(1.4);
+  width: 100%;
   }
