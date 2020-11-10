@@ -72,6 +72,8 @@ margin-left: 20%;
 h3 {
   font-size: 26px;
   }
+
+
 .teacher .info{
   color: #000;
 }
@@ -125,8 +127,13 @@ h2 {
    text-align: center;
    font-size: 0;
  }
- .first-info .info {
+
+.content  .target{
   margin-top: 8px;
+  font-size: 15px;
+}
+ .first-info .info {
+  margin-top: 0px;
   font-size: 15px;
 }
  .btn-white {
