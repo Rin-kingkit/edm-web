@@ -7,6 +7,7 @@
   * {
     margin: 0;
     padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, PingFang,'Microsoft JhengHei';
     }
 .container{
     width:clamp(100px,100%,700px);
@@ -101,7 +102,7 @@ li {
   height: 50px;
   border-radius: 7px;
   text-align: center;
-  line-height: 54px;
+  line-height: 50px;
   font-size: 25px;
   color: #fff;
   margin: auto;
@@ -130,7 +131,7 @@ h2 {
   width: 300px;
   margin: auto;
   height: 32px;
-line-height: 34px;
+line-height: 32px;
 margin-top: 25px;
   }
   .btn-white a {
@@ -149,7 +150,7 @@ margin-top: 25px;
 .signup-block > div {
   height: 33.6px;
 width: 144.4px;
-line-height: 35.6px;
+line-height: 33.6px;
 border-radius: 4.8px;
   margin: auto;
   background-color: #000;
@@ -184,7 +185,7 @@ border-radius: 4.8px;
   height: 42px;
   margin: auto;
   background-color: #000;
-  line-height: 44px;
+  line-height: 42px;
   border-radius: 5px;
   margin-top: 32px;
 }
