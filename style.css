@@ -14,9 +14,11 @@
     background-color:#FFDC18;
     padding-top: 35px;
     height: 100%;
+    
 }
 p{
   font-size: 18px;
+  color: #000;
 }
 a {
   text-decoration: none;
@@ -24,11 +26,11 @@ a {
   display: block;
   width: 100%;
   height: 100%;
-  font-size: 18px;
+  font-size: 16px;
   }
 h1{
     width: 100%;
-    
+    background-color: #FFDC18;
 }
 h1 a{
     width: 100%;
@@ -68,9 +70,12 @@ margin-left: 20%;
     /* margin-left: 5%; */
     margin-top: 0%;
     padding: 41px 33px;
+    background-color: #fff;
+    border-radius: 15px;
 }
 h3 {
   font-size: 26px;
+  color: #000;
   }
 
 
@@ -95,6 +100,7 @@ ul {
 li {
   line-height: 35px;
   font-size: 18px;
+  color: #000;
   }
   li > span {
   color: #FFDC18;
@@ -122,6 +128,7 @@ h2 {
       text-align: center;
       font-size: 28px;
       margin: 60px auto 0 auto;
+      color: #000;
   }
 .first {
    text-align: center;
@@ -130,8 +137,12 @@ h2 {
 
 .content  .target{
   margin-top: 8px;
-  font-size: 15px;
+  font-size: 18px;
+  background-color: #fff;
 }
+.first-info {
+  background-color: #fff;
+  }
  .first-info .info {
   margin-top: 0px;
   font-size: 15px;
@@ -144,6 +155,7 @@ h2 {
   height: 32px;
 line-height: 32px;
 margin-top: 25px;
+background-color: #fff;
   }
   .btn-white a {
     color: #000;
@@ -154,6 +166,7 @@ margin-top: 25px;
       width: 215px;
     height: 130px;
     margin-top: 20px;
+    background-color: #fff;
   }
 .signup {
   /* border-right: 1px solid #000; */
@@ -192,11 +205,11 @@ border-radius: 4.8px;
   font-size: 15px;
 }
 .second-btn{
-  width: 230px;
-  height: 42px;
+  width: 187px;
+  height: 34.6px;
+  line-height: 34.7px;
   margin: auto;
   background-color: #000;
-  line-height: 42px;
   border-radius: 5px;
   margin-top: 32px;
   font-size: 16px;
@@ -213,17 +226,17 @@ border-radius: 4.8px;
     margin-top: 82px;
 }
 .footer-content{
-  width: 90%;
+  width: 100%;
   display: inline-block;
   vertical-align: middle;
 }
 .footer-content > div {
   display: inline-block;
-  width: 280px;
+  width: 100%;
   }
 
 .footer-logo> img {
-  width: 66px;
+  width: min(200px,45%);
   display: inline-block;
   vertical-align: middle;
   }
